@@ -18,4 +18,434 @@ hello
 >>> b = 3
 >>> print( min (a, b))
 3
+>>> Python 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 45 + 72
+117
+>>> x = 7
+>>> y = 3 
+>>> x=y
+>>> x+y 
+6
+>>> x=7
+>>> y=3
+>>> x+y 
+10
+>>> total = x+y 
+>>> total 
+10
+>>> type(x)
+<class 'int'>
+>>> Type(10.5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Type' is not defined. Did you mean: 'type'?
+>>> type (x)
+<class 'int'>
+>>> type(10.5)
+<class 'float'>
+>>> total = 10.8+12.2+0.2
+>>> total 
+23.2
+>>> 7*4
+28
+>>> 2 ** 10 
+1024
+>>> 9 ** (1/2)
+3.0
+>>> 7/4
+1.75
+>>> 7//4
+1
+>>> 3//5
+0
+>>> 14//7
+2
+>>> 123/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> z
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z' is not defined
+>>> z+7
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'z' is not defined
+>>> 17%5
+2
+>>> 7.5%3.5
+0.5
+>>> 10 * (5+3)
+80
+>>> 10*5+3
+53
+>>> print('Welcome to Pythin!')
+Welcome to Pythin!
+>>> print("welcome to Python!")
+welcome to Python!
+>>> print('Welcome', 'to', 'Python!')
+Welcome to Python!
 >>> 
+>>> print('Welcome\nto\n\nPython!')
+Welcome
+to
+
+Python!
+>>> print('sum is', 7+3)
+sum is 10
+>>> print('Display "hi" in quotes')
+Display "hi" in quotes
+>>> print("""Display "hi" and 'bye' in quotes """)
+Display "hi" and 'bye' in quotes 
+>>> Python 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0] on linux
+  File "<stdin>", line 1
+    Python 3.10.5 (main, Jul 22 2022, 17:09:35) [GCC 9.4.0] on linux
+           ^^^^
+SyntaxError: invalid syntax
+>>> Type "help", "copyright", "credits" or "license" for more information.
+  File "<stdin>", line 1
+    Type "help", "copyright", "credits" or "license" for more information.
+         ^^^^^^
+SyntaxError: invalid syntax
+>>> >>> 45 + 72
+  File "<stdin>", line 1
+    >>> 45 + 72
+    ^^
+SyntaxError: invalid syntax
+>>> 117
+117
+>>> >>> x = 7
+  File "<stdin>", line 1
+    >>> x = 7
+    ^^
+SyntaxError: invalid syntax
+>>> >>> y = 3 
+  File "<stdin>", line 1
+    >>> y = 3 
+    ^^
+SyntaxError: invalid syntax
+>>> >>> x=y
+  File "<stdin>", line 1
+    >>> x=y
+    ^^
+SyntaxError: invalid syntax
+>>> >>> x+y 
+  File "<stdin>", line 1
+    >>> x+y 
+    ^^
+SyntaxError: invalid syntax
+>>> 6
+6
+>>> >>> x=7
+  File "<stdin>", line 1
+    >>> x=7
+    ^^
+SyntaxError: invalid syntax
+>>> >>> y=3
+  File "<stdin>", line 1
+    >>> y=3
+    ^^
+SyntaxError: invalid syntax
+>>> >>> x+y 
+  File "<stdin>", line 1
+    >>> x+y 
+    ^^
+SyntaxError: invalid syntax
+>>> 10
+10
+>>> >>> total = x+y 
+  File "<stdin>", line 1
+    >>> total = x+y 
+    ^^
+SyntaxError: invalid syntax
+>>> >>> total 
+  File "<stdin>", line 1
+    >>> total 
+    ^^
+SyntaxError: invalid syntax
+>>> 10
+10
+>>> >>> type(x)
+  File "<stdin>", line 1
+    >>> type(x)
+    ^^
+SyntaxError: invalid syntax
+>>> <class 'int'>
+  File "<stdin>", line 1
+    <class 'int'>
+    ^
+SyntaxError: invalid syntax
+>>> >>> Type(10.5)
+  File "<stdin>", line 1
+    >>> Type(10.5)
+    ^^
+SyntaxError: invalid syntax
+>>> Traceback (most recent call last):
+  File "<stdin>", line 1
+    Traceback (most recent call last):
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>>   File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1
+    File "<stdin>", line 1, in <module>
+IndentationError: unexpected indent
+>>> NameError: name 'Type' is not defined. Did you mean: 'type'?
+  File "<stdin>", line 1
+    NameError: name 'Type' is not defined. Did you mean: 'type'?
+                    ^^^^^^
+SyntaxError: invalid syntax
+>>> >>> type (x)
+  File "<stdin>", line 1
+    >>> type (x)
+    ^^
+SyntaxError: invalid syntax
+>>> <class 'int'>
+  File "<stdin>", line 1
+    <class 'int'>
+    ^
+SyntaxError: invalid syntax
+>>> >>> type(10.5)
+  File "<stdin>", line 1
+    >>> type(10.5)
+    ^^
+SyntaxError: invalid syntax
+>>> <class 'float'>
+  File "<stdin>", line 1
+    <class 'float'>
+    ^
+SyntaxError: invalid syntax
+>>> >>> total = 10.8+12.2+0.2
+  File "<stdin>", line 1
+    >>> total = 10.8+12.2+0.2
+    ^^
+SyntaxError: invalid syntax
+>>> >>> total 
+  File "<stdin>", line 1
+    >>> total 
+    ^^
+SyntaxError: invalid syntax
+>>> 23.2
+23.2
+>>> >>> 7*4
+  File "<stdin>", line 1
+    >>> 7*4
+    ^^
+SyntaxError: invalid syntax
+>>> 28
+28
+>>> >>> 2 ** 10 
+  File "<stdin>", line 1
+    >>> 2 ** 10 
+    ^^
+SyntaxError: invalid syntax
+>>> 1024
+1024
+>>> >>> 9 ** (1/2)
+  File "<stdin>", line 1
+    >>> 9 ** (1/2)
+    ^^
+SyntaxError: invalid syntax
+>>> 3.0
+3.0
+>>> >>> 7/4
+  File "<stdin>", line 1
+    >>> 7/4
+    ^^
+SyntaxError: invalid syntax
+>>> 1.75
+1.75
+>>> >>> 7//4
+  File "<stdin>", line 1
+    >>> 7//4
+    ^^
+SyntaxError: invalid syntax
+>>> 1
+1
+>>> >>> 3//5
+  File "<stdin>", line 1
+    >>> 3//5
+    ^^
+SyntaxError: invalid syntax
+>>> 0
+0
+>>> >>> 14//7
+  File "<stdin>", line 1
+    >>> 14//7
+    ^^
+SyntaxError: invalid syntax
+>>> 2
+2
+>>> >>> 123/0
+  File "<stdin>", line 1
+    >>> 123/0
+    ^^
+SyntaxError: invalid syntax
+>>> Traceback (most recent call last):
+  File "<stdin>", line 1
+    Traceback (most recent call last):
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>>   File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1
+    File "<stdin>", line 1, in <module>
+IndentationError: unexpected indent
+>>> ZeroDivisionError: division by zero
+  File "<stdin>", line 1
+    ZeroDivisionError: division by zero
+                                ^^
+SyntaxError: invalid syntax
+>>> >>> z
+  File "<stdin>", line 1
+    >>> z
+    ^^
+SyntaxError: invalid syntax
+>>> Traceback (most recent call last):
+  File "<stdin>", line 1
+    Traceback (most recent call last):
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>>   File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1
+    File "<stdin>", line 1, in <module>
+IndentationError: unexpected indent
+>>> NameError: name 'z' is not defined
+  File "<stdin>", line 1
+    NameError: name 'z' is not defined
+                    ^^^
+SyntaxError: invalid syntax
+>>> >>> z+7
+  File "<stdin>", line 1
+    >>> z+7
+    ^^
+SyntaxError: invalid syntax
+>>> Traceback (most recent call last):
+  File "<stdin>", line 1
+    Traceback (most recent call last):
+               ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>>   File "<stdin>", line 1, in <module>
+  File "<stdin>", line 1
+    File "<stdin>", line 1, in <module>
+IndentationError: unexpected indent
+>>> NameError: name 'z' is not defined
+  File "<stdin>", line 1
+    NameError: name 'z' is not defined
+                    ^^^
+SyntaxError: invalid syntax
+>>> >>> 17%5
+  File "<stdin>", line 1
+    >>> 17%5
+    ^^
+SyntaxError: invalid syntax
+>>> 2
+2
+>>> >>> 7.5%3.5
+  File "<stdin>", line 1
+    >>> 7.5%3.5
+    ^^
+SyntaxError: invalid syntax
+>>> 0.5
+0.5
+>>> >>> 10 * (5+3)
+  File "<stdin>", line 1
+    >>> 10 * (5+3)
+    ^^
+SyntaxError: invalid syntax
+>>> 80
+80
+>>> >>> 10*5+3
+  File "<stdin>", line 1
+    >>> 10*5+3
+    ^^
+SyntaxError: invalid syntax
+>>> 53
+53
+>>> >>> print('Welcome to Pythin!')
+  File "<stdin>", line 1
+    >>> print('Welcome to Pythin!')
+    ^^
+SyntaxError: invalid syntax
+>>> Welcome to Pythin!
+  File "<stdin>", line 1
+    Welcome to Pythin!
+            ^^
+SyntaxError: invalid syntax
+>>> >>> print("welcome to Python!")
+  File "<stdin>", line 1
+    >>> print("welcome to Python!")
+    ^^
+SyntaxError: invalid syntax
+>>> welcome to Python!
+  File "<stdin>", line 1
+    welcome to Python!
+            ^^
+SyntaxError: invalid syntax
+>>> >>> print('Welcome', 'to', 'Python!')
+  File "<stdin>", line 1
+    >>> print('Welcome', 'to', 'Python!')
+    ^^
+SyntaxError: invalid syntax
+>>> Welcome to Python!
+  File "<stdin>", line 1
+    Welcome to Python!
+            ^^
+SyntaxError: invalid syntax
+>>> >>> 
+  File "<stdin>", line 1
+    >>> 
+    ^^
+SyntaxError: invalid syntax
+>>> >>> print('Welcome\nto\n\nPython!')
+  File "<stdin>", line 1
+    >>> print('Welcome\nto\n\nPython!')
+    ^^
+SyntaxError: invalid syntax
+>>> Welcome
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Welcome' is not defined
+>>> to
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'to' is not defined
+>>> 
+>>> Python!
+  File "<stdin>", line 1
+    Python!
+          ^
+SyntaxError: invalid syntax
+>>> >>> print('sum is', 7+3)
+  File "<stdin>", line 1
+    >>> print('sum is', 7+3)
+    ^^
+SyntaxError: invalid syntax
+>>> sum is 10
+<stdin>:1: SyntaxWarning: "is" with a literal. Did you mean "=="?
+False
+>>> >>> print('Display "hi" in quotes')
+  File "<stdin>", line 1
+    >>> print('Display "hi" in quotes')
+    ^^
+SyntaxError: invalid syntax
+>>> Display "hi" in quotes
+  File "<stdin>", line 1
+    Display "hi" in quotes
+            ^^^^
+SyntaxError: invalid syntax
+>>> >>> print("""Display "hi" and 'bye' in quotes """)
+  File "<stdin>", line 1
+    >>> print("""Display "hi" and 'bye' in quotes """)
+    ^^
+SyntaxError: invalid syntax
+>>> Display "hi" and 'bye' in quotes 
+  File "<stdin>", line 1
+    Display "hi" and 'bye' in quotes 
+            ^^^^
+SyntaxError: invalid syntax
+>>> >>> 
+
+
+ 
+
