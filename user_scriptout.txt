@@ -53,3 +53,37 @@ x = min(1, 2, 3, 4, 5, 6, 7)
 y = max(1, 2, 3, 4, 5, 6, 7)
 print('About:', x, '-', y,  'days a week')
 
+/usr/local/bin/python3 /Users/resetandwiped/Desktop/44608-80:81/datafun-01-getting-started/user_script.py
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Courtney-MacBook-Pro:datafun-01-getting-started resetandwiped$ /usr/local/bin/python3 /Users/resetandwiped/Desktop/44608-80:81/datafun-01-getting-started/user_script.py
+Do you like pasta y
+ y
+How do you like your past sauce rating 1-3
+no sauce:  1
+easy sauce:  1
+heavy sauce:  3
+3 Heavy Sauce on pasta
+The ratio of pasta to water is
+Pounds of Pasta: 8
+cups of water: 12 
+0.6666666666666666 Correct Ratio
+rating 1-3 what sauce do you like
+Red Sauce : 1
+White Sauce : 3
+Butter : 2
+6 Good Choices
+how do you like your pasta cooked rating 1-3
+baked : 3
+boiled : 2
+in soup : 1
+2.0 in soup
+the variety of pasta
+How many sauces do you like: 4
+how many pasta noodles do you like: 5
+20 combinations of dishes
+How many days you can have pasta
+About: 1 - 7 days a week
+(base) Courtney-MacBook-Pro:datafun-01-getting-started resetandwiped$ 
